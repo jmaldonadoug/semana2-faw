@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 - 19004628</title>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Ejercicio 1</h1>
+        <label for="ej1-n1">Primer numero</label><br>
+        <input type="number" id="ej1-n1" name="ej1-n1"><br>
+        <label for="ej1-n2">Segundo numero</label><br>
+        <input type="number" id="ej1-n2" name="ej1-n2"><br>
+        <input type="button" value="Submit" onclick="ejercicio1()"><br>
+        <h3 id="ej1-respuesta"></h3>
+    </div>
+
+    <div>
+        <h1>Ejercicio 2</h1>
+        <label for="ej2-n1">Grados celsius</label><br>
+        <input type="number" id="ej2-n1" name="ej2-n1"><br>
+        <input type="button" value="Submit" onclick="ejercicio2()"><br>
+        <h3 id="ej2-respuesta"></h3>
+    </div>
+
+    <div>
+        <h1>Ejercicio 3</h1>
+        <label for="ej3-input1">Nombre</label><br>
+        <input type="text" id="ej3-input1" name="ej3-input1"><br>
+        <input type="button" value="Agregar" onclick="ejercicio3Agregar()"><br>
+        <div id="ej3-nombres1"></div><br>
+        <label for="ej3-input2">No. letras</label><br>
+        <input type="number" id="ej3-input2" name="ej3-input2"><br>
+        <input type="button" value="Filtrar" onclick="ejercicio3Filtrar()"><br>
+        <div id="ej3-nombres2"></div>
+    </div>
+
+    <div>
+        <h1>Ejercicio 4</h1>
+        <label for="ej4-input1">Nombre</label>
+        <input type="text" id="ej4-input1" name="ej4-input1"><br>
+        <label for="ej4-input2">Fecha de nacimiento</label>
+        <input type="date" id="ej4-input2" name="ej4-input2"><br>
+        <input type="button" value="Agregar" onclick="ejercicio4Agregar()"><br>
+        <div id="ej4-lista1"></div><br>
+        <label for="ej4-input3">Fecha</label><br>
+        <input type="date" id="ej4-input3" name="ej4-input3"><br>
+        <input type="button" value="Mostrar edad" onclick="ejercicio4MostrarEdad()"><br>
+        <div id="ej4-lista2"></div>
+    </div>
+
+    <div>
+        <h1>Ejercicio 5</h1>
+        <label for="ej5-input1">Texto</label><br>
+        <textarea name="ej5-input" id="ej5-input" cols="50"></textarea><br>
+        <input type="button" value="Submit" onclick="ejercicio5()"><br>
+        <h3 id="ej5-respuesta"></h3>
+    </div>
+
+    <div>
+        <h1>Ejercicio 6</h1>
+        <label for="ej6-input">Numero</label><br>
+        <input type="number" id="ej6-input" name="ej6-input"><br>
+        <input type="button" value="Agregar" onclick="ejercicio6Agregar()">
+        <input type="button" value="Promedio" onclick="ejercicio6Promedio()"><br>
+        <div id="ej6-numeros"></div>
+        <h3 id="ej6-respuesta"></h3>
+    </div>
+
+    <div>
+        <h1>Ejercicio 7</h1>
+        <label for="ej7-input">Color</label><br>
+        <input type="color" id="ej7-input" name="ej7-input"><br>
+        <input type="button" value="Submit" onclick="ejercicio7()"><br>
+        <div id="ej7-respuesta"></div>
+    </div>
+</body>
+</html>
